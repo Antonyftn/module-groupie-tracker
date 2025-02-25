@@ -1,0 +1,49 @@
+// Main App Component
+const App = () => {
+  return (
+    <Layout>
+      <HomePage />
+    </Layout>
+  );
+};
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Wiki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="collection.html">Collection</a></li>
+                <li><a href="categories.html">Catégories</a></li>
+                <li><a href="search.html">Recherche</a></li>
+                <li><a href="favorites.html">Favoris</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h1>Bienvenue sur le Wiki Spotify</h1>
+            <p>Explorez des albums, des artistes et des playlists directement depuis l'API Spotify.</p>
+        </section>
+
+        <section class="resources">
+            <h2>Ressources populaires</h2>
+            <div class="resource-list">
+                <!-- Les ressources Spotify seront affichées ici dynamiquement via Go -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wiki Spotify - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
