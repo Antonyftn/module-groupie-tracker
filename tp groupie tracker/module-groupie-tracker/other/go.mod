@@ -1,0 +1,1 @@
+require github.com/zmb3/spotify v1.0.0
